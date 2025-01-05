@@ -6,7 +6,7 @@ public class ArrayAndLoop {
         Scanner scan = new Scanner(System.in);
         for(int i=0;i<5;i++){
 
-            System.out.println("Enter value for index "+i+" :");
+            System.out.print("1Enter value for index "+i+" :");
             arr[i] = scan.nextInt();
 
         }
@@ -14,5 +14,7 @@ public class ArrayAndLoop {
         for(int i:arr){
             System.out.print(i+" ");
         }
+
+        scan.close();
     }
 }
